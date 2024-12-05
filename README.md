@@ -22,7 +22,15 @@ This repository contains a set of assets for setting up my machine.
 
 5. Install Git. Use winget: `winget install --id Git.Git -e --source winget`
 
-## TODO 
-- Install and configure Neovim. See https://github.com/jprice628/NeovimConfig
-- Install OhMyPosh
-- Setup powershell profile
+6. Install Oh My Posh. Use the Microsoft Store or winget: `winget install
+   JanDeDobbeleer.OhMyPosh -s winget` See https://ohmyposh.dev/ for more
+   information.
+
+7. Configure Powershell Profile. Use your browser to navigate to
+   https://raw.githubusercontent.com/jprice628/Prelude/refs/heads/topic/readme/Powershell/Profile.ps1
+   and copy the contents. Open Powerhshell, enter `notepad $PROFILE`, and paste
+   the contents. Save and exit notepad. From the Powershell command line, type `.
+   $PROFILE` to refresh. The new Oh My Posh should now be visible, and the grep
+   alias should work.
+
+8. Install Neovim. Visit https://github.com/jprice628/NeovimConfig.
