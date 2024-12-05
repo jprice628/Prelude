@@ -15,8 +15,9 @@ This repository contains a set of assets for setting up my machine.
    more information:
    https://github.com/microsoft/terminal?tab=readme-ov-file#other-install-methods
 
+4. Install Git. Use winget: `winget install --id Git.Git -e --source winget`
+
 ## TODO 
-- Install Git
 - Install and configure Neovim. See https://github.com/jprice628/NeovimConfig
 - Install OhMyPosh
 - Setup powershell profile
