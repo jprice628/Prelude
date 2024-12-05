@@ -15,7 +15,12 @@ This repository contains a set of assets for setting up my machine.
    more information:
    https://github.com/microsoft/terminal?tab=readme-ov-file#other-install-methods
 
-4. Install Git. Use winget: `winget install --id Git.Git -e --source winget`
+4. Configure Windows Terminal.
+    - Open the settings. One the Startup page, set the default profile to Powershell.
+    - Select Powershell under Profiles on the left menu.
+    - Expand the Appearance section, and change the font face to Cousine Nerd Font Mono.
+
+5. Install Git. Use winget: `winget install --id Git.Git -e --source winget`
 
 ## TODO 
 - Install and configure Neovim. See https://github.com/jprice628/NeovimConfig
