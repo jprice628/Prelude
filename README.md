@@ -1,7 +1,7 @@
 # Prelude
 This repository contains a set of assets for setting up my machine.
 
-## Instructions:
+## Instructions
 1. Install a nerd font to provide icons for the command line and Neovim. Visit
    https://www.nerdfonts.com/font-downloads. The Cousine font is good.
    Download it. Unzip the CousineNerdFontMono-Regular.ttf file (You don't need the
@@ -16,7 +16,6 @@ This repository contains a set of assets for setting up my machine.
    https://github.com/microsoft/terminal?tab=readme-ov-file#other-install-methods
 
 ## TODO 
-- Install Windows Terminal
 - Install Git
 - Install and configure Neovim. See https://github.com/jprice628/NeovimConfig
 - Install OhMyPosh
