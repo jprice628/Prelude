@@ -4,10 +4,6 @@
 # Type ". $PROFILE" to refresh.
 
 # Theme for Oh My Posh
-# Website: https://ohmyposh.dev/
-# Install:
-#   - Winget: winget install JanDeDobbeleer.OhMyPosh -s winget 
-#   - Windows store: https://apps.microsoft.com/detail/xp8k0hkjfrxgck?hl=en-us&gl=US
 oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/jprice628/Prelude/refs/heads/main/OhMyPosh/SimpleMachine.json' | Invoke-Expression
 
 # Powershell Aliases
