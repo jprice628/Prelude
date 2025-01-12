@@ -4,7 +4,7 @@
 # Type ". $PROFILE" to refresh.
 
 # Theme for Oh My Posh
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/jprice628/Prelude/refs/heads/main/OhMyPosh/SimpleMachine.json' | Invoke-Expression
-
+oh-my-posh init pwsh --config 'c:\dev\Prelude\OhMyPosh\SimpleMachine.json' | Invoke-Expression
+#
 # Powershell Aliases
 Set-Alias -Name grep -Value Select-String
